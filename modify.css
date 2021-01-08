@@ -1,0 +1,211 @@
+.allmember{
+  border: black solid 1px;
+  background-color: rgba(128, 128, 128, 0.342);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.line-top3{
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    width: 43%;
+    border-top: solid black 2px;
+  }
+  .n{
+    font-size: 30px;
+    position: absolute;
+    left:13% ;
+  }
+  .n2{
+    position: absolute;
+    top: 31%;
+    left:23% ;
+  }
+  .g{
+    font-size: 30px;
+    position: absolute;
+    left:13% ;
+  }
+  .g2{
+    position: absolute;
+    top: 46%;
+    left:23% ;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .b{
+    font-size: 30px;
+    position: absolute;
+    left:13% ;
+  }
+  .b2{
+    position: absolute;
+    top: 62%;
+    left:23% ;
+  }
+  .p{
+    font-size: 30px;
+    position: absolute;
+    top: 29%;
+    left:50% ;
+  }
+  .p2{
+    position: absolute;
+    top: 31.5%;
+    left:59% ;
+  }
+  .a{
+    font-size: 30px;
+    position: absolute;
+    top: 48.5%;
+    left:50% ;
+  }
+  .a2{
+    position: absolute;
+    top: 51%;
+    left:59% ;
+  }
+
+  .button5{
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+
+
+  
+  
+
+/*懸停*/
+  .cart {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    top: 0.3%;
+    right: 1.5%;
+  }
+  
+  
+  .search {
+    position: absolute;
+    top: 1vw;
+    right: 5vw;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    width: 12vw;
+    height: 10vh;
+  }
+  
+  
+  .product {
+    position: absolute;
+    width: 10vw;
+    left: 30vw;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  
+  
+  .memberbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .member {
+    position: absolute;
+    display: inline-block;
+    width: 10vw;
+    left: 43%;
+    top: 8%;
+  }
+  
+  .member-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 5.9vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .member-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  
+  }
+  
+  .member-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .member:hover .member-content {
+    display: block;
+  }
+  
+  .member:hover .memberbtn {
+    background-color: white;
+  }
+  
+  .aboutus {
+    position: absolute;
+    width: 10vw;
+    left: 58%;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  
+  .register {
+    position: absolute;
+    width: 10vw;
+    left: 70%;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .footermodify {
+    height: 16%;
+    /*設定footer本身高度*/
+    background-color: rgba(192, 180, 180, 0.959);
+    position: absolute;
+    left: -0.1%;
+    top:100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  

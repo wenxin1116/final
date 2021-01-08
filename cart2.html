@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account</title>
+  <link rel="stylesheet" href="assist.css">
+  <link rel="stylesheet" href="cart2.css">
+</head>
+
+<body>
+  <div class="accountborder">
+    <div class="account">
+      <label for="name"><b class="name">訂購人姓名：</b></label>
+      <div class="n"><input type="text" name="name" required></div>
+      <label for="email"><b class="email">訂購人E-mail：</b></label>
+      <div class="e"><input type="text" name="email" required></div>
+      <label for="type"><b class="type">取貨及付款方式：</b></label>
+      <div class="t"><input class="type1" type="radio" name="type1" value="man" />
+        <p class="t1">超商取貨</p>
+        <input class="type2" type="radio" name="gender" value="type2" />
+        <p class="t2">宅配到府
+      </div>
+      </p>
+    </div>
+  </div>
+  <button type="button" class="button"><a href="#">結帳</button></a>
+
+
+  <div id="page" class="page">
+    <div class="container">
+      <div class="contentheadercontainer">
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+  <p class="step1">Step.1 購物清單</p>
+  <p class="step2">Step.2 填寫資料</p>
+
+</body>
+
+</html>

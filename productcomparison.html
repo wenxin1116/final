@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+  <!-- 懸停標頭 -->
+  <div id="page" class="page">
+
+    <div class="container">
+
+      <div class="contentheadercontainer">
+
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href=""><img class="cart" src="image/cart.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+
+  <div class="comparison">
+    <div class="comparisontitle">
+      產品比較
+    </div>
+
+    <div class="comproduct1">
+      <img src="image/FNISS1-1.jpg" style="width: 100%; height: 100%;">
+    </div>
+    <div class="comproduct2">
+      <img src="image/STRAPATS1-1.jpg" style="width: 100%; height: 100%;">
+    </div>
+    <div class="comproductintro1">
+      <span style="font-weight: bold">FNISS<br>
+        垃圾桶,白色<br></span>
+
+      <p
+        style="font-size: 50px; color: rgb(206, 5, 5); font-family: 微軟正黑體; font-weight: bold; margin-top: 10px; margin-bottom: -10px;">
+        $35
+      </p><br>
+      <p style="margin-top: -15px;"><span style="font-weight: bold;">商品介紹：</span>耐使用的塑膠材質，清潔時用抹布擦拭乾淨即可。</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">材質：</span>聚丙烯塑膠</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">尺寸：</span>高28公分,直徑28公分,10公升</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">庫存:</span></p>
+      <!--<div class="deliver">超商取貨滿199免運</div>-->
+
+      <div class="heartcomp1"><input id="toggle-heart" type="checkbox" />
+        <label for="toggle-heart">❤<span style="font-size: 35px;">最愛</span></label></div>
+      <button class="comp1addbutton" style="font-size: 25px;">加入購物車</button>
+
+    </div>
+
+    <div class="comproductintro2">
+      <span style="font-weight: bold">STRAPATS<br>
+        腳踏式垃圾桶<br></span>
+
+      <p
+        style="font-size: 50px; color: rgb(206, 5, 5); font-family: 微軟正黑體; font-weight: bold; margin-top: 5px; margin-bottom: -10px;">
+        $259
+      </p><br>
+      <p style="margin-top: -16px;"><span style="font-weight: bold;">商品介紹：</span>後有把手，方便移動。
+        附可拆式內桶，容易清空垃圾或清潔。</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">材質：</span>不鏽鋼、鋼質、鍍鋅、聚丙烯塑膠</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">尺寸：</span>高28公分,直徑20,容積4.6公升</p>
+      <p style="margin-top: -20px;"><span style="font-weight: bold;">庫存:</span></p>
+      <!--<div class="deliver">超商取貨滿199免運</div>-->
+
+      <div class="heartcomp1"><input id="toggle-heart2" type="checkbox" />
+        <label for="toggle-heart2">❤<span style="font-size: 35px;">最愛</span></label></div>
+      <button class="comp1addbutton" style="font-size: 25px;">加入購物車</button>
+
+    </div>
+  </div>
+  <footer class="footerproductcomparison ">
+    <p>歡迎光臨真易潔~<br>
+      營業時間：AM08：30 ~ PM10：00<br>
+      地址：320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+</body>
+
+</html>

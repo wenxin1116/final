@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aboutus</title>
+  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+  <!-- 文-->
+  <div class="aboutusborder">
+    <p class="title">吳文心</p>
+    <p class="front">前台設計</p>
+    <div class="line">&nbsp;</div>
+    <div class="igbig"><a href="https://www.instagram.com/wen_xin1116/"><img class="ig1" src="image/ig.png"></a></div>
+    <div class="ig1-1">wen_xin1116</div>
+    <div class="fbbig"><a href="https://www.facebook.com/profile.php?id=100003949996974"><img class="fb"
+          src="image/fb.png"></a></div>
+    <div class="f1">吳文心</div>
+    <div class="emailbig"><a href="mailto:winnie4981078@gmail.com"><img class="email" src="image/email.png"></a></div>
+    <p class="e1">winnie4981078@gmail.com</p>
+    <div class="us">
+      <img class="wu" src="image/wu.png">
+      <p class="class">資管二甲</p>
+    </div>
+  </div>
+
+  <!-- 甯 -->
+
+  <div class="aboutusborder2">
+    <p class="title2">許景甯</p>
+    <p class="front2">前台設計</p>
+    <div class="line2">&nbsp;</div>
+    <div class="igbig2"><a href="https://www.instagram.com/nini_nana_ning/"><img class="ig2" src="image/ig.png"></a>
+    </div>
+    <div class="ig2-1">nini_nana_ning</div>
+    <div class="fbbig2"><a href="https://www.facebook.com/nininananing/"><img class="fb2" src="image/fb.png"></a></div>
+    <div class="f2">許景甯</div>
+    <div class="emailbig2"><a href="mailto:nina20010305@gmail.com"><img class="email2" src="image/email.png"></a></div>
+    <p class="e2">nina20010305@gmail.com</p>
+    <div class="us2">
+      <img class="hsu" src="image/hsu.png">
+      <p class="class2">資管二甲</p>
+    </div>
+  </div>
+
+  <!-- 邱 -->
+  <div class="aboutusborder3">
+    <p class="title3">邱冠哲</p>
+    <p class="front3">後台設計</p>
+    <div class="line3">&nbsp;</div>
+    <div class="igbig3"><a href="https://www.instagram.com/qiuguanzhe/"><img class="ig3" src="image/ig.png"></a></div>
+    <div class="ig3-1">qiuguanzhe</div>
+    <div class="fbbig3"><a href="https://www.facebook.com/profile.php?id=100002987875803"><img class="fb3"
+          src="image/fb.png"></a></div>
+    <div class="f3">邱冠哲</div>
+    <div class="emailbig3"><a href="mailto:a0906397408@gmail.com"><img class="email3" src="image/email.png"></a></div>
+    <p class="e3">a0906397408@gmail.com</p>
+    <div class="us3">
+      <img class="chu" src="image/chu.png">
+      <p class="class3">資管二乙</p>
+    </div>
+  </div>
+
+  <!-- 曾 -->
+
+  <div class="aboutusborder4">
+    <p class="title4">曾翊傑</p>
+    <p class="front4">後台設計</p>
+    <div class="line4">&nbsp;</div>
+    <div class="igbig4"><a href="https://www.instagram.com/tseng90317/"><img class="ig4" src="image/ig.png"></a></div>
+    <div class="ig4-1">tseng90317</div>
+    <div class="fbbig4"><a href="https://www.facebook.com/profile.php?id=100006322693271"><img class="fb4"
+          src="image/fb.png"></a></div>
+    <div class="f4">曾翊傑</div>
+    <div class="emailbig4"><a href="mailto:tseng90317@gmail.com"><img class="email4" src="image/email.png"></a></div>
+    <p class="e4">tseng90317@gmail.com</p>
+    <div class="us4">
+      <img class="chu" src="image/kyle.png">
+      <p class="class4">資管二乙</p>
+    </div>
+  </div>
+
+
+  <!-- 懸停標頭 -->
+  <div id="page" class="page">
+
+    <div class="container">
+
+      <div class="contentheadercontainer">
+
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="ordertrack.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+            <div class="wrap">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+  <p class="location">我們在這裡喔!!!!!</p>
+  <div class="map" align=center>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7234.532981223937!2d121.23767147493886!3d24.95704628603349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468221447a0f021%3A0x2b86d2650bb8bcff!2z5Lit5Y6f5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1608975469714!5m2!1szh-TW!2stw"
+      width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </div>
+
+
+  <footer class="footeraboutus">
+    <p>歡迎光臨真易潔~<br>
+      營業時間AM08：30 ~ PM10：00<br>
+      地址320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+
+
+
+</body>
+
+</html>

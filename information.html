@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information</title>
+  <link rel="stylesheet" href="information.css">
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+
+  <div class="title">會員基本資料</div>
+  <div class="memberinformation">
+    <h2>姓名:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陳美麗<br><br>
+      性別:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp女<br><br>
+      生日:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2001/10/25<br><br>
+      電話:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0985-432-865<br><br>
+      地址:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No. 82 Daren St, 中壢區桃園市320</h2>
+  </div>
+  <button type="button" class="button6"><a href="modify.html">修改資料</button><br></a>
+  <footer class="footerinformation">
+    <p>歡迎光臨真易潔~<br>
+      營業時間AM08：30 ~ PM10：00<br>
+      地址320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+
+  <div id="page" class="page">
+    <div class="container">
+      <div class="contentheadercontainer">
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+
+
+</body>
+
+</html>

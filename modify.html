@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modify</title>
+  <link rel="stylesheet" href="modify.css">
+</head>
+
+<body>
+  <div class="allmember">
+    <h2>基本資料修改</h2><br>
+    <div class="line-top3"></div>
+    <label for="name"><b class="n">姓名</b></label>
+    <div class="n2"><input type="text" name="name" required></div><br><br><br><br>
+    <label for="name"><b class="g">性別</b></label>
+    <div class="g2"><input type="radio" name="gender" value="man" />男生
+      <input type="radio" name="gender" value="woman" />女生</div><br><br><br><br>
+    <label for="birth"><b class="b">生日</b></label></form></b>
+    <div class="b2"><input type="date" id="bookdate" name="birth"></div><br><br>
+    <label for="phone"><b class="p">電話</b></label>
+    <div class="p2"><input type="text" name="phone" required></div>
+    <label for="address"><b class="a">地址</b></label>
+    <div class="a2"><input type="text" class="address" name="address" required></div><br><br>
+  </div>
+  <button type="button" class="button5"><a href="information.html">確認修改</button></a>
+
+
+
+  <div id="page" class="page">
+    <div class="container">
+      <div class="contentheadercontainer">
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+
+  <footer class="footermodify">
+    <p>歡迎光臨真易潔~<br>
+      營業時間AM08：30 ~ PM10：00<br>
+      地址320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+
+</body>
+
+</html>

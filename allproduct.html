@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+  <!-- 懸停標頭 -->
+  <div id="page" class="page">
+
+    <div class="container">
+
+      <div class="contentheadercontainer">
+
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+            <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+            <script src="https://kit.fontawesome.com/7a07597102.js"></script>
+
+            <div class="wrap">
+              <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="想找甚麼呢?">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+  <div class="allproducts">
+    <div class="allproductstitle">
+      垃圾桶</div>
+    <div class="product1"><a href="fniss.html">
+        <div class="container1"><img src="image/FNISS1-1.jpg" style="width: 100%; height: 72%; ">
+          <div class="overlay"><img src="image/FNISS1-2.jpg" style="width: 100%; height: 72%;"></div>
+
+          <!-- <div class="productcompare"><input type="checkbox"> 比較
+                    </div>-->
+        </div>
+        <div class="productword">FNISS<br>垃圾桶,白色<br>$35
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxOne" value="compare1"><label for="checkboxOne">比較</label>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </a></div>
+    <div class="product2"><a href="strapats.html">
+        <div class="container1"><img src="image/STRAPATS1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/STRAPATS1-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">STRAPATS<br>腳踏式垃圾桶<br>$259
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input onclick="location.href='productcomparison.html'" type="checkbox" id="checkboxTwo"
+                  value="compare2"><label for="checkboxTwo">比較</label>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product3">
+      <div class="container1"><a href="snapp.html"><img src="image/SNAPP1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/SNAPP1-2.jpg" style="width: 100%; height: 72%;"></div>
+      </div>
+      <div class="productword">SNAPP<br>腳踏式垃圾桶<br>$299
+        <div class="container2">
+          <ul class="ks1-cboxtags">
+            <li><input type="checkbox" id="checkboxThree" value="compare3"><label for="checkboxThree">比較</label>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+      </a>
+    </div>
+    <div class="product4">
+      <div class="container1"><a href="knodd.html"><img src="image/KNODD1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/KNODD1-3.jpg" style="width: 100%; height: 72%;"></div>
+      </div>
+      <div class="productword">KNODD<br>垃圾桶<br>$529
+        <div class="container2">
+          <ul class="ks1-cboxtags">
+            <li><input type="checkbox" id="checkboxFour" value="compare4"><label for="checkboxFour">比較</label>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="product5"><a href="hallbar.html">
+        <div class="container1"><img src="image/HALLBAR1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/HALLBAR1-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">HALLBAR<br>垃圾桶<br>$100
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxFive" value="compare5"><label for="checkboxFive">比較</label></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product6">
+      <div class="container1"><a href="mjosa.html"><img src="image/MJOSA1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/MJOSA1-2.jpg" style="width: 100%; height: 72%;"></div>
+      </div>
+      <div class="productword">MJOSA<br>腳踏式垃圾桶<br>$1299
+
+        <div class="container2">
+          <ul class="ks1-cboxtags">
+            <li><input type="checkbox" id="checkboxSix" value="compare6"><label for="checkboxSix">比較</label>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="product7"><a href="pluggis.html">
+        <div class="container1"><img src="image/PLUGGIS1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/PLUGGIS1-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">PLUGGIS<br>垃圾分類桶<br>$249
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxSeven" value="compare7"><label for="checkboxSeven">比較</label></li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product8"><a href="mjosa2.html">
+        <div class="container1"><img src="image/MJOSA2-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/MJOSA2-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">MJOSA<br>腳踏式垃圾桶<br>$1299
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxEight" value="compare8"><label for="checkboxEight">比較</label></li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product9"><a href="variera.html">
+        <div class="container1"><img src="image/VARIERA1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/VARIERA1-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">VARIERA<br>垃圾桶<br>$99
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxNine" value="compare9"><label for="checkboxNine">比較</label></li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product10"><a href="fniss2.html">
+        <div class="container1"><img src="image/FNISS2-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/FNISS2-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">FNISS<br>垃圾桶<br>$35
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxTen" value="compare10"><label for="checkboxTen">比較</label>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product11"><a href="snapp2.html">
+        <div class="container1"><img src="image/SNAPP2-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/SNAPP2-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">SNAPP<br>腳踏式垃圾桶<br>$299
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li class="ks-selected"><input type="checkbox" id="checkboxEleven" value="compare11"><label
+                  for="checkboxEleven">比較</label></li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+    <div class="product12"><a href="sortera.html">
+        <div class="container1"><img src="image/SORTERA1-1.jpg" style="width: 100%; height: 72%;">
+          <div class="overlay"><img src="image/SORTERA1-2.jpg" style="width: 100%; height: 72%;"></div>
+        </div>
+        <div class="productword">SORTERA<br>附蓋垃圾箱<br>$479
+
+          <div class="container2">
+            <ul class="ks1-cboxtags">
+              <li><input type="checkbox" id="checkboxTwelve" value="compare12"><label for="checkboxTwelve">比較</label>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </a></div>
+
+  </div>
+
+
+  <!--分類-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="pedal.html">腳踏式</a>
+    <a href="flipcover.html">掀蓋式</a>
+    <a href="opening.html">開口式</a>
+
+  </div>
+
+  <span style="font-size:30px; font-weight: bold; cursor:pointer" onclick="openNav()" class="sort">&#9776;
+    分類</span>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "9%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+
+  <footer class="footerallproduct">
+    <p>歡迎光臨真易潔~<br>
+      營業時間：AM08：30 ~ PM10：00<br>
+      地址：320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+</body>
+
+</html>

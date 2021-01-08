@@ -1,0 +1,89 @@
+.accountborder{
+    border: solid 1px black;
+    background: rgba(139, 139, 139, 0.596);
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.account{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+}
+.n{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.e{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.name{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.email{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.type{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.type1{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+}
+.type2{
+    position: absolute;
+    top: 77%;
+    left: 75%;
+}
+.t1{
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.t2{
+    position: absolute;
+    top: 68%;
+    left: 80%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.step1{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+}
+.step2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 30px;
+    font-weight: bold;
+}
+

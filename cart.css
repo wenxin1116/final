@@ -1,0 +1,461 @@
+.step1{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+}
+.step2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 30px;
+    color: gray;
+}
+
+.line-top1{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    width: 80%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+p{
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.line-top2{
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    width: 80%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+.check2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    zoom: 180%;
+}
+.line-top3{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+.check3{
+    position: absolute;
+    top: 68%;
+    left: 20%;
+    zoom: 180%;
+}
+.line-top4{
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    width: 80%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+.check4{
+    position: absolute;
+    top: 87%;
+    left: 20%;
+    zoom: 180%;
+}
+.line-top5{
+    position: absolute;
+    top: 96%;
+    left: 10%;
+    width: 80%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+.a{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+}
+.b{
+    position: absolute;
+    top: 66%;
+    left: 32%;
+}
+.c{
+    position: absolute;
+    top: 84%;
+    left: 32%;
+}
+
+
+
+
+
+　* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.btn-numbox {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.btn-numbox li {
+    float: left;
+}
+
+
+
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+    position: absolute;
+    top: 50%;
+    left: 45.5%;
+}
+
+.btn-numbox .count .num-jian,
+.input-num,
+.num-jia {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+
+.btn-numbox .count .num-jia {
+    margin-left: 1px;
+}
+
+.btn-numbox .count .input-num {
+    width: 28px;
+    height: 26px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+/*2*/
+.numbox{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.numbox li{
+    float: left;
+}
+.numbox .count2{
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+    position: absolute;
+    top: 69%;
+    left: 45.5%;
+}
+.numbox .count2 .decrease,
+.input,
+.increase{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+.numbox .count2 .increase{
+    margin-left:1px ;
+}
+.numbox .count2 .input{
+    width: 28px;
+    height: 26px;
+    color: #333;
+    border-left:0 ;
+    border-radius: 0;
+}
+/*3*/
+.numbox3{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.numbox3 li{
+    float: left;
+}
+.numbox3 .count3{
+    overflow: hidden;
+    margin: 0 16px 0 -20px;
+    position: absolute;
+    top: 86.5%;
+    left: 45.5%;
+}
+.numbox3 .count3 .decrease3,
+.input3,
+.increase3{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+.numbox3 .count3 .increase3{
+    margin-left:1px ;
+}
+.numbox3 .count3 .input3{
+    width: 28px;
+    height: 26px;
+    color: #333;
+    border-left:0 ;
+    border-radius: 0;
+}
+.cash1{
+    position: absolute;
+    top: 48%;
+    left: 58%;
+}
+.cash2{
+    position: absolute;
+    top: 67%;
+    left: 58%;
+}
+.cash3{
+    position: absolute;
+    top: 84%;
+    left: 58%;
+}
+.keep{
+    position: absolute;
+    top: 97%;
+    left: 10%;
+    width: 2%;
+    height: 4%;
+}
+.shopping{
+    position: absolute;
+    top: 95.5%;
+    left: 12%;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(26, 181, 241);
+}
+.total1{
+    position: absolute;
+    top: 48%;
+    left: 67%;
+}
+.total2{
+    position: absolute;
+    top: 67%;
+    left: 67%;
+}
+.total3{
+    position: absolute;
+    top: 84%;
+    left:67%;
+}
+.alltotal{
+    position: absolute;
+    top: 95.5%;
+    left: 70%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    position: absolute;
+    top: 97%;
+    left: 79%;
+    font-size: 20px;
+    background: white;
+    margin: 1px;
+    border: 3px solid rgb(26, 181, 241); 
+}
+
+
+
+
+
+.cart {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 0.3%;
+  right: 1.5%;
+}
+
+
+.search {
+  position: absolute;
+  top: 1vw;
+  right: 5.5%;
+}
+
+.collectheart {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 0.3%;
+  right: 5.5%;
+}
+
+.logo {
+  position: absolute;
+  top: 0.5%;
+  left: 13%;
+  width: 12vw;
+  height: 10vh;
+}
+
+
+.product {
+  position: absolute;
+  width: 10vw;
+  left: 30vw;
+  top: 5.5%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+.memberbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  font-weight: bold;
+}
+
+.member {
+  position: absolute;
+  display: inline-block;
+  width: 10vw;
+  left: 43%;
+  top: 3.7%;
+}
+
+.member-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 5.9vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.member-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+
+}
+
+.member-content a:hover {
+  background-color: #ddd;
+}
+
+.member:hover .member-content {
+  display: block;
+}
+
+.member:hover .memberbtn {
+  background-color: white;
+}
+
+.aboutus {
+  position: absolute;
+  width: 10vw;
+  left: 58%;
+  top: 5.5%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.register {
+  position: absolute;
+  width: 10vw;
+  left: 70%;
+  top: 5.5%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*.logreg {
+  background-color: #d40909;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  font-weight: bold;
+}*/
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.p1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 46%;
+    left: 24%;
+}
+.p2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 64%;
+    left: 24%;
+}
+.p3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 82%;
+    left: 24%;
+}
+

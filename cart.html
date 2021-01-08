@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <p class="step1">Step.1 購物清單</p>
+    <p class="step2">Step.2 填寫資料</p>
+    <div class="line-top1"></div>
+    <p>商品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;數量&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;單價&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金額</p>
+    <div class="line-top2"></div>
+    <div class="check2"><input type="checkbox" value="1" name="check"></div>
+    <div class="line-top3"></div>
+    <div class="check3"><input type="checkbox" value="1" name="check"></div>
+    <div class="line-top4"></div>
+    <div class="check4"><input type="checkbox" value="1" name="check"></div>
+    <div class="line-top5"></div>
+    <p class="a">FNISS垃圾桶,白色</p>
+    <p class="b">KNODD垃圾桶</p>
+    <p class="c">MJOSA腳踏式垃圾桶,深灰色</p>
+
+
+
+    <ul class="btn-numbox">
+        <li>
+            <ul class="count">
+                <li><span id="num-jian" class="num-jian">-</span></li>
+                <li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                <li><span id="num-jia" class="num-jia">+</span></li>
+            </ul>
+        </li>
+
+        <ul class="numbox">
+            <li>
+                <ul class="count2">
+                    <li><span id="decrease" class="decrease">-</span></li>
+                    <li><input type="text2" class="input" id="input" value="0" /></li>
+                    <li><span id="increase" class="increase">+</span></li>
+                </ul>
+            </li>
+
+
+            <ul class="numbox3">
+                <li>
+                    <ul class="count3">
+                        <li><span id="decrease3" class="decrease3">-</span></li>
+                        <li><input type="text3" class="input3" id="input3" value="0" /></li>
+                        <li><span id="increase3" class="increase3">+</span></li>
+                    </ul>
+                </li>
+
+                <p class="cash1">35</p>
+                <p class="cash2">529</p>
+                <p class="cash3">1299</p>
+                <a href="allproduct.html"><img class="keep" src="image/cart.png">
+                    <p class="shopping">繼續購物</p>
+                </a>
+                <p class="total1">35</p>
+                <p class="total2">529</p>
+                <p class="total3">1299</p>
+                <p class="alltotal">總計(不含運費):$0</p>
+                <button type="button" class="button"><a href="cart2.html">下一步</button></a>
+
+                <script>
+                    var num_jia = document.getElementById("num-jia");
+                    var num_jian = document.getElementById("num-jian");
+                    var input_num = document.getElementById("input-num");
+
+                    num_jia.onclick = function () {
+
+                        input_num.value = parseInt(input_num.value) + 1;
+                    }
+
+                    num_jian.onclick = function () {
+
+                        if (input_num.value <= 0) {
+                            input_num.value = 0;
+                        } else {
+
+                            input_num.value = parseInt(input_num.value) - 1;
+                        }
+
+                    }
+
+
+
+
+                    var increase = document.getElementById("increase");
+                    var decrease = document.getElementById("decrease");
+                    var input = document.getElementById("input");
+
+                    increase.onclick = function () {
+
+                        input.value = parseInt(input.value) + 1;
+                    }
+
+                    decrease.onclick = function () {
+
+                        if (input.value <= 0) {
+                            input.value = 0;
+                        } else {
+
+                            input.value = parseInt(input.value) - 1;
+                        }
+
+                    }
+
+
+                    var increase3 = document.getElementById("increase3");
+                    var decrease3 = document.getElementById("decrease3");
+                    var input3 = document.getElementById("input3");
+
+                    increase3.onclick = function () {
+
+                        input3.value = parseInt(input3.value) + 1;
+                    }
+
+                    decrease3.onclick = function () {
+
+                        if (input3.value <= 0) {
+                            input3.value = 0;
+                        } else {
+
+                            input3.value = parseInt(input3.value) - 1;
+                        }
+
+                    }
+
+
+
+
+
+                    function checkAll() {
+                        var hobby = document.getElementsByClassName("hobby");
+                        for (var i = 0; i < hobby.length; i++) {
+                            var h = hobby[i];
+                            h.checked = true;
+                        }
+
+                    }
+
+                    function unCheckAll() {
+                        var hobby = document.getElementsByClassName("hobby");
+                        for (var i = 0; i < hobby.length; i++) {
+                            var h = hobby[i];
+                            h.checked = false;
+
+                        }
+                    }
+                </script>
+
+
+                <div id="page" class="page">
+                    <div class="container">
+
+                        <div class="contentheadercontainer">
+
+                            <div class="fsh">
+                                <div class="firstheader">
+                                    <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+                                    <div class="product"><a href="allproduct.html">商品一覽</a></div>
+                                    <div class="member">
+                                        <button class="memberbtn">會員專區</button>
+                                        <div class="member-content">
+                                            <a href="member.html">個人資料</a>
+                                            <a href="order.html">訂單查詢</a>
+                                        </div>
+                                    </div>
+                                    <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+                                    <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+                                    <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function scrollDetect() {
+                        var html = document.documentElement;
+                        var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+                        if (top > 235) {
+                            document.getElementById('secondheader').style.position = 'fixed';
+                            document.getElementById('secondheader').style.marginTop = '60px';
+                            document.getElementById('secondheader').style.width = '100%';
+                        } else {
+                            document.getElementById('secondheader').style.position = 'inherit';
+                            document.getElementById('secondheader').style.marginTop = '300px';
+                        }
+                        document.getElementById('demo').innerHTML = top;
+                    }
+                </script>
+
+                <img class="p1" src="image/FNISS1-1.jpg">
+                <img class="p2" src="image/KNODD1-1.jpg">
+                <img class="p3" src="image/MJOSA1-1.jpg">
+</body>
+
+</html>

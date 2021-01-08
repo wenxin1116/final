@@ -1,0 +1,181 @@
+.mylove {
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-weight: bolder;
+}
+
+.likephoto {
+    width: 4%;
+    height: 8%;
+    position: absolute;
+    top: 21.5%;
+    left: 21%;
+}
+
+.line-top1 {
+    position: absolute;
+    top: 37%;
+    left: 15%;
+    width: 70%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+
+p {
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.line-top2 {
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    width: 70%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+
+.check2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    zoom: 180%;
+
+}
+
+.line-top3 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 70%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+
+.check3 {
+    position: absolute;
+    top: 68%;
+    left: 20%;
+    zoom: 180%;
+}
+
+.line-top4 {
+    position: absolute;
+    top: 78%;
+    left: 15%;
+    width: 70%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+
+.check4 {
+    position: absolute;
+    top: 87%;
+    left: 20%;
+    zoom: 180%;
+}
+
+.line-top5 {
+    position: absolute;
+    top: 96%;
+    left: 15%;
+    width: 70%;
+    border-top: solid rgba(0, 0, 0, 0.473) 1px;
+}
+
+.a {
+    position: absolute;
+    top: 49%;
+    left: 32%;
+}
+
+.b {
+    position: absolute;
+    top: 66%;
+    left: 32%;
+}
+
+.c {
+    position: absolute;
+    top: 84%;
+    left: 32%;
+}
+
+.cash1 {
+    position: absolute;
+    top: 49%;
+    left: 51%;
+}
+
+.cash2 {
+    position: absolute;
+    top: 66%;
+    left: 51%;
+}
+
+.cash3 {
+    position: absolute;
+    top: 85%;
+    left: 51%;
+}
+
+.cart2 {
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 49%;
+    left: 65%;
+}
+
+.cart3 {
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 66%;
+    left: 65%;
+}
+
+.cart4 {
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+.footer {
+    height: 16%;
+    /*設定footer本身高度*/
+    background-color: rgba(192, 180, 180, 0.959);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.p1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 46%;
+    left: 24%;
+}
+
+.p2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 64%;
+    left: 24%;
+}
+
+.p3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 82%;
+    left: 24%;
+}

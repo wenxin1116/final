@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+  <marquee direction="left" scrollamount="15" onMouseOver="this.stop()" onMouseOut="this.start()"
+    style="animation: infinite; width: 80%;position: absolute; left: 10%;top: 13%; font-family: 微軟正黑體;">
+    <p style="font-size: 30px;">本館慶祝一周年，1/1~1/11全館8折</p>
+  </marquee>
+
+
+
+  <div class="slideshowContainer">
+
+    <!-- Replace the image 'src' with the images in your project.
+  Javascript is set up so that you can add as many images as you like, but make sure that you match the number of 'circle' span elements (below) to the number of images -->
+    <img class="imageSlides" src="image/xmas.png" alt="beach side city view">
+    <img class="imageSlides" src="image/全館.png" alt="leaf on the ground">
+    <img class="imageSlides" src="image/全館2.png" alt="lake surrounded by mountains">
+
+    <!-- I would recommend to replace these 'span' elements with 'img' files
+  for each the left and right arrow that fits your project, and size accordingly.
+  I've shown 'span' elements because I didn't want to upload files. -->
+    <span id="leftArrow" class="slideshowArrow">&#10094;</span>
+    <span id="rightArrow" class="slideshowArrow">&#10095;</span>
+
+    <div class="slideshowCircles">
+      <!-- Filled 'dot' class is set to first image in slideshow, and then via Javascript the filled 'dot' class follows the current image.
+  Make sure you match the number of these 'circle' span elements to the number of images in your slideshow. -->
+      <span class="circle dot"></span>
+      <span class="circle"></span>
+      <span class="circle"></span>
+    </div>
+
+  </div>
+  <script>
+    // IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
+    var imageSlides = document.getElementsByClassName('imageSlides');
+    var circles = document.getElementsByClassName('circle');
+    var leftArrow = document.getElementById('leftArrow');
+    var rightArrow = document.getElementById('rightArrow');
+    var counter = 0;
+
+    // HIDE ALL IMAGES FUNCTION
+    function hideImages() {
+      for (var i = 0; i < imageSlides.length; i++) {
+        imageSlides[i].classList.remove('visible');
+      }
+    }
+
+    // REMOVE ALL DOTS FUNCTION
+    function removeDots() {
+      for (var i = 0; i < imageSlides.length; i++) {
+        circles[i].classList.remove('dot');
+      }
+    }
+
+    // SINGLE IMAGE LOOP/CIRCLES FUNCTION
+    function imageLoop() {
+      var currentImage = imageSlides[counter];
+      var currentDot = circles[counter];
+      currentImage.classList.add('visible');
+      removeDots();
+      currentDot.classList.add('dot');
+      counter++;
+    }
+
+    // LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
+    function arrowClick(e) {
+      var target = e.target;
+      if (target == leftArrow) {
+        clearInterval(imageSlideshowInterval);
+        hideImages();
+        removeDots();
+        if (counter == 1) {
+          counter = (imageSlides.length - 1);
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        } else {
+          counter--;
+          counter--;
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        }
+      } else if (target == rightArrow) {
+        clearInterval(imageSlideshowInterval);
+        hideImages();
+        removeDots();
+        if (counter == imageSlides.length) {
+          counter = 0;
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        } else {
+          imageLoop();
+          imageSlideshowInterval = setInterval(slideshow, 10000);
+        }
+      }
+    }
+
+    leftArrow.addEventListener('click', arrowClick);
+    rightArrow.addEventListener('click', arrowClick);
+
+
+    // IMAGE SLIDE FUNCTION
+    function slideshow() {
+      if (counter < imageSlides.length) {
+        imageLoop();
+      } else {
+        counter = 0;
+        hideImages();
+        imageLoop();
+      }
+    }
+
+    // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
+    setTimeout(slideshow, 500);
+    var imageSlideshowInterval = setInterval(slideshow, 3000);
+  </script>
+
+  <!-- 懸停標頭 -->
+  <div id="page" class="page">
+
+    <div class="container">
+
+      <div class="contentheadercontainer">
+
+        <div class="fsh">
+          <div class="firstheader">
+            <div><a href="#"><img class="logo" src="image/logo.png"></a></div>
+            <div class="product"><a href="allproduct.html">商品一覽</a></div>
+            <div class="member">
+              <button class="memberbtn">會員專區</button>
+              <div class="member-content">
+                <a href="member.html">個人資料</a>
+                <a href="order.html">訂單查詢</a>
+              </div>
+            </div>
+            <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+
+            <div class="register"><a href="register.html">登入/註冊</a></div>
+
+            <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+            <script src="https://kit.fontawesome.com/7a07597102.js"></script>
+
+            <div class="wrap">
+              <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="想找甚麼呢?">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+              </div>
+
+            </div>
+          </div </div> </div> </div> </div> </div> </div> <script>
+          /*function scrollDetect(){
+          var html = document.documentElement;
+          var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+          if(top > 235){
+          document.getElementById('secondheader').style.position = 'fixed';
+          document.getElementById('secondheader').style.marginTop = '60px';
+          document.getElementById('secondheader').style.width='100%';
+          }else{
+          document.getElementById('secondheader').style.position = 'inherit';
+          document.getElementById('secondheader').style.marginTop = '300px';
+          }
+          document.getElementById('demo').innerHTML = top;
+          }*/
+          </script>
+
+
+          <div class="hotsale">
+            <div class="hotsaletitle">
+              熱銷商品
+            </div>
+            <div class="hotproduct1">
+              <a href="strapats.html">
+                <div class="pic"><img src="image/STRAPATS1-1.jpg" style="width: 100%; height: 80%;"></div>
+              </a>
+              <div class="hotproductword"> STRAPATS<br>腳踏式垃圾桶, 不鏽鋼<br>
+                $259</div>
+            </div>
+            <div class="hotproduct2">
+              <a href="knodd.html">
+                <div class="pic"><img src="image/KNODD1-1.jpg" style="width: 100%; height: 80%;"></div>
+              </a>
+              <div class="hotproductword">
+                KNODD<br>垃圾桶, 灰色<br>
+                $529</div>
+            </div>
+            <div class="hotproduct3">
+              <a href="fniss.html">
+                <div class="pic"><img src="image/FNISS1-1.jpg" style="width: 100%; height: 80%;"></div>
+              </a>
+              <div class="hotproductword">FNISS<br>垃圾桶, 白色<br>
+                $35</div>
+            </div>
+          </div>
+          <footer class="footer">
+            <p>歡迎光臨真易潔~<br>
+              營業時間：AM08：30 ~ PM10：00<br>
+              地址：320桃園市中壢區中北路200號<br>
+              客服電話：0800-072-263</p>
+          </footer>
+
+
+
+
+
+
+</body>
+
+</html>

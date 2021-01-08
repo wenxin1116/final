@@ -1,0 +1,51 @@
+.title{
+  font-size: 45px;
+  font-weight: bolder;
+  position: absolute;
+  top: 17%;
+  left: 42%;
+}
+.memberinformation{
+  border: solid black 1px;
+  background-color: rgba(128, 128, 128, 0.418);
+  width: 50%;
+  height: 37%;
+  padding: 2%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.h2{
+  position: absolute;
+  top: 7%;
+  left:20%;
+  font-size: 30px;
+}
+.button6{
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.h3{
+  position: absolute;
+  top: 7%;
+  left: 20%;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,625 @@
+/*文*/
+.aboutusborder{
+    border: solid black 1px;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.title{
+    font-size: 60px;
+    font-weight:bold;
+    position: absolute;
+    top: -10%;
+    left: 23%;
+    color: black;
+}
+.class{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.front{
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.line{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    border-left:5px solid black;
+    border-top:5px solid black;
+    width: 50%;
+    height: 65%;
+}
+
+.ig1{
+    position: absolute;
+    top: 76%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.ig1-1{
+    position: absolute;
+    top: 82%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.igbig{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .ig1{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .ig1:hover{
+    transform: scale(1.2);
+}
+.fb{
+    position: absolute;
+    top: 54.5%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.f1{
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fbbig{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .fb{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .fb:hover{
+    transform: scale(1.2);
+}
+.email{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.e1{
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.emailbig{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .email{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .email:hover{
+    transform: scale(1.2);
+}
+
+.us{
+    border: solid black 1px;
+    background: black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.wu{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 88%;
+    height: 60%;
+}
+
+/*甯*/
+.aboutusborder2{
+    border: solid black 1px;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.title2{
+    font-size: 60px;
+    font-weight:bold;
+    position: absolute;
+    top: -10%;
+    left: 23%;
+    color: black;
+}
+.class2{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.front2{
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.line2{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    border-left:5px solid black;
+    border-top:5px solid black;
+    width: 50%;
+    height: 65%;
+}
+
+.ig2{
+    position: absolute;
+    top: 76%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.ig2-1{
+    position: absolute;
+    top: 82%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.igbig2{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .ig2{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .ig2:hover{
+    transform: scale(1.2);
+}
+.fb2{
+    position: absolute;
+    top: 54.5%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.f2{
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fbbig2{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .fb2{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .fb2:hover{
+    transform: scale(1.2);
+}
+.email2{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.e2{
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.emailbig2{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .email2{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .email2:hover{
+    transform: scale(1.2);
+}
+
+.us2{
+    border: solid black 1px;
+    background: black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.hsu{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 88%;
+    height: 60%;
+}
+
+/*邱*/
+
+.aboutusborder3{
+    border: solid black 1px;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 90%;
+    left: 6%;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.title3{
+    font-size: 60px;
+    font-weight:bold;
+    position: absolute;
+    top: -10%;
+    left: 23%;
+    color: black;
+}
+.class3{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.front3{
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.line3{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    border-left:5px solid black;
+    border-top:5px solid black;
+    width: 50%;
+    height: 65%;
+}
+
+.ig3{
+    position: absolute;
+    top: 76%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.ig3-1{
+    position: absolute;
+    top: 82%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.igbig3{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .ig3{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .ig3:hover{
+    transform: scale(1.2);
+}
+.fb3{
+    position: absolute;
+    top: 54.5%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.f3{
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fbbig3{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .fb3{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .fb3:hover{
+    transform: scale(1.2);
+}
+.email3{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.e3{
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.emailbig3{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .email3{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .email3:hover{
+    transform: scale(1.2);
+}
+
+.us3{
+    border: solid black 1px;
+    background: black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.chu{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 88%;
+    height: 60%;
+}
+
+/*曾*/
+.aboutusborder4{
+    border: solid black 1px;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 90%;
+    left: 53%;
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+}
+
+.title4{
+    font-size: 60px;
+    font-weight:bold;
+    position: absolute;
+    top: -10%;
+    left: 23%;
+    color: black;
+}
+.class4{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.front4{
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.line4{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    border-left:5px solid black;
+    border-top:5px solid black;
+    width: 50%;
+    height: 65%;
+}
+
+.ig4{
+    position: absolute;
+    top: 76%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.ig4-1{
+    position: absolute;
+    top: 82%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.igbig4{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .ig4{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .ig4:hover{
+    transform: scale(1.2);
+}
+.fb4{
+    position: absolute;
+    top: 54.5%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.f4{
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fbbig4{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .fb4{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .fb4:hover{
+    transform: scale(1.2);
+}
+.email4{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    width: 11%;
+    height: 18%;
+}
+.e4{
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.emailbig4{
+    width: 300px;
+height: 300px;
+border: white solid 0px;
+margin: 50px auto;
+overflow: hidden;
+}
+div .email4{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+div .email4:hover{
+    transform: scale(1.2);
+}
+
+.us4{
+    border: solid black 1px;
+    background: black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.chu{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 88%;
+    height: 60%;
+}
+.map{
+    position: absolute;
+    top: 160%;
+    left: 35%;
+    
+}
+.location{
+    position: absolute;
+    top: 150%;
+    left: 45%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.footer {
+    height: 16%;
+    /*設定footer本身高度*/
+    background-color: rgba(192, 180, 180, 0.959);
+    position: absolute;
+    top: 220%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  
+  }

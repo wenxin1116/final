@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Member</title>
+  <link rel="stylesheet" href="member.css">
+  <link rel="stylesheet" href="assist.css">
+</head>
+
+<body>
+  <div class="me">
+    <div class="meborder">
+      <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好!陳美麗</h1>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="order.html"><button type="button"
+          class="button1">訂單查詢</button></a>
+      <a href="wishlist.html"><button type="button" class="button2">我的收藏</button></a>
+    </div>
+  </div>
+
+  <img class="visitor" src="image/visitor.png">
+  <div class="set">
+    <div class="setborder">
+      <img class="setphoto" src="image/set.png">
+      <h4>會員設定</h4>
+      <a href="information.html"><button type="button" class="button3">基本資料</button><br></a>
+      <a href="modify.html"><button type="button" class="button4">修改資料</button></a>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="order">
+    <!-- 第二個區塊 -->
+    <div class="order2">
+      <table class="table">
+        <thead>
+          <tr>
+            <th style="background-color: #46A3FF; color: white;">訂單編號</th>
+            <th style="background-color: #46A3FF; color: white;">訂單內容</th>
+            <th style="background-color: #46A3FF; color: white;">金額</th>
+            <th style="background-color: #46A3FF; color: white;">狀態</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="background-color:white;">TH191210A</td>
+            <td style="background-color:white;">FNISS垃圾桶,白色</td>
+            <td style="background-color:white;">35</td>
+            <td style="background-color:white;">已完成</td>
+          </tr>
+          <tr class="success">
+            <td style="background-color:#C4E1FF;">TS159832N</td>
+            <td style="background-color:#C4E1FF;">MJOSA腳踏式垃圾桶,深灰色</td>
+            <td style="background-color:#C4E1FF;">1299</td>
+            <td style="background-color:#C4E1FF;">已完成</td>
+          </tr>
+          <tr class="error">
+            <td style="background-color:white;">TS579245K</td>
+            <td style="background-color:white;"> KNODD垃圾桶</td>
+            <td style="background-color:white;">529</td>
+            <td style="background-color:white;">已完成</td>
+          </tr>
+          <tr class="warning">
+            <td style="background-color:#C4E1FF;">TS678923E</td>
+            <td style="background-color:#C4E1FF;">PLUGGIS垃圾分類桶, 白色</td>
+            <td style="background-color:#C4E1FF;">249</td>
+            <td style="background-color:#C4E1FF;">已完成</td>
+          </tr>
+          <tr class="info">
+            <td style="background-color:white;">TS173498L</td>
+            <td style="background-color:white;">SNAPP腳踏式垃圾桶, 藍色</td>
+            <td style="background-color:white;">299</td>
+            <td style="background-color:white;">未出貨</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="see"><a href="order.html">看詳細...</a></div>
+
+
+    <div id="page" class="page">
+      <div class="container">
+        <div class="contentheadercontainer">
+          <div class="fsh">
+            <div class="firstheader">
+              <div><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
+              <div class="product"><a href="allproduct.html">商品一覽</a></div>
+              <div class="member">
+                <button class="memberbtn">會員專區</button>
+                <div class="member-content">
+                  <a href="member.html">個人資料</a>
+                  <a href="order.html">訂單查詢</a>
+                </div>
+              </div>
+              <div class="aboutus"><a href="#"><a href="aboutus.html">關於我們</a></a></div>
+              <div class="register"><a href="#"><a href="register.html">登入/註冊</a></a></div>
+              <div><a href="cart.html"><img class="cart" src="image/cart.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function scrollDetect() {
+      var html = document.documentElement;
+      var top = (window.pageYOffset || html.scrollTop) - (html.clientTop || 0);
+      if (top > 235) {
+        document.getElementById('secondheader').style.position = 'fixed';
+        document.getElementById('secondheader').style.marginTop = '60px';
+        document.getElementById('secondheader').style.width = '100%';
+      } else {
+        document.getElementById('secondheader').style.position = 'inherit';
+        document.getElementById('secondheader').style.marginTop = '300px';
+      }
+      document.getElementById('demo').innerHTML = top;
+    }
+  </script>
+
+  <footer class="footermember">
+    <p>歡迎光臨真易潔~<br>
+      營業時間AM08：30 ~ PM10：00<br>
+      地址320桃園市中壢區中北路200號<br>
+      客服電話：0800-072-263</p>
+  </footer>
+</body>
+
+</html>

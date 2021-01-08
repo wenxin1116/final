@@ -1,0 +1,223 @@
+.me{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 38%;
+}
+.meborder{
+    border: solid 1px 	black;
+    padding: 4%;
+    width: 180%;
+    background-color:rgba(128, 128, 128, 0.185);
+}
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.button1{
+    font-size: 130%;
+    background-color: white;
+    cursor: pointer; 
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+    margin:10px 20px 0px 0px;
+
+}
+.button2{
+    font-size: 130%;
+    background-color: white;
+    cursor: pointer; 
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+    margin:10px 10px 0px 0px;
+}
+
+.set{
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    width: 25%;
+}
+.setborder{
+    border: solid 1px 	black ;
+    padding: 6%;
+    width: 100%;
+    padding: 10%;
+}
+h4{
+    position: absolute;
+    left: 11%;
+    font-weight: normal;
+    position: absolute;
+    top: -9%;
+    font-size: 30px;
+}
+
+.setphoto{
+     width: 7%;
+     height: 12%;
+     position: absolute;
+     top: 8.5%;
+     left: 2%;
+}
+.button3{
+    font-size: 20PX;
+    background-color: white;
+    cursor: pointer; 
+    padding: 3%;
+    border:solid 1px ;
+    width: 100%;
+    margin:20px 10px 10px 10px;
+}
+.button4{
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer; 
+    padding: 3%;
+    border:solid 1px ;
+    width: 100%;
+    margin:20px 10px -10px 10px;
+} 
+.visitor{
+    width: 13%;
+    height: 26%;
+    position: absolute;
+    top:19.5%;
+    left:14%;
+}
+
+.table{
+
+    font-size: 200%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+
+   
+}
+
+
+  
+.see{
+    position: absolute;
+    top: 80%;
+    left: 82%;
+   
+}
+
+  
+/*懸停*/
+.cart {
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    top: 0.3%;
+    right: 1.5%;
+  }
+  
+  
+  .search {
+    position: absolute;
+    top: 1vw;
+    right: 5vw;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    width: 12vw;
+    height: 10vh;
+  }
+  
+  
+  .product {
+    position: absolute;
+    width: 10vw;
+    left: 30vw;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  
+  
+  .memberbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .member {
+    position: absolute;
+    display: inline-block;
+    width: 10vw;
+    left: 43%;
+    top: 8%;
+  }
+  
+  .member-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 5.9vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .member-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  
+  }
+  
+  .member-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .member:hover .member-content {
+    display: block;
+  }
+  
+  .member:hover .memberbtn {
+    background-color: white;
+  }
+  
+  .aboutus {
+    position: absolute;
+    width: 10vw;
+    left: 58%;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  
+  }
+  
+  .register {
+    position: absolute;
+    width: 10vw;
+    left: 70%;
+    top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+ 
+
+
+  
+  
+  
